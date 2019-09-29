@@ -6,13 +6,12 @@ Getting Started
 
 ```sh
 # clone it
-git clone https://github.com/Tech-Recruiting-Bitwala/Shiva-Dwivedi-Coding-Challenge.git
-cd bitwala_backend
+git clone https://github.com/shiva2492/Blockchain-Explorer-Typescript
 
 # Make it your own
 rm -rf .git && git init && npm init
 
-# Install dependencies
+# Install dependencies for backend server
 npm install
 
 # Create database 
@@ -32,6 +31,22 @@ npm run-script docs
 
 # Start production server:
 PORT=8080 npm start
+
+
+# Start the frontend server:
+
+cd public
+
+# Start development live-reload server
+npm start
+
+# Launches the test runner in the interactive watch mode
+npm test
+
+# Builds the app for production to the build folder
+npm run build
+
+See the section about deployment for more information.
 ```
 
 Performance fixes: 
@@ -40,7 +55,10 @@ Performance fixes:
 2) Debugging purpose could have been better by adding every layer console and adding console logs in files using winston.
 3) Test cases could be better.
 
+
 ```
+
+
 
 License
 -------

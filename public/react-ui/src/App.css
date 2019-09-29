@@ -1,0 +1,13 @@
+@import '~antd/dist/antd.css';
+
+.Header {
+  background-color: white;
+}
+
+.Footer {
+  background-color: white;
+}
+
+.App {
+  text-align: center;
+}
